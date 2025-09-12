@@ -1,0 +1,4 @@
+requests>=2.31.0
+dnspython>=2.6.1
+aiosmtpd>=1.4.5
+pyftpdlib>=1.5.9
