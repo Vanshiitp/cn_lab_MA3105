@@ -12,7 +12,7 @@ server_port = 9999
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Open video file (NO fallback)
-video_path = r"C:\Users\Aryaman\Downloads\1MB.mp4"
+video_path = r"" //Add video path
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
@@ -57,3 +57,4 @@ while cap.isOpened():
 cap.release()
 sock.close()
 print("[SERVER] Streaming finished")
+
