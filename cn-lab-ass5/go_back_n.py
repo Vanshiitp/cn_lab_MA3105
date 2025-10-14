@@ -28,6 +28,7 @@ def simulate_go_back_n(total_frames, window_size, loss_prob):
         if loss_index != -1:
             # Retransmit from the lost frame
             time.sleep(1)
+            base = loss_index
             continue  # base stays the same, resend window
 
         # All frames received successfully
