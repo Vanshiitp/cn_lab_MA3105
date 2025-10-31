@@ -1,6 +1,6 @@
 Network Traffic Analysis Report
-Name: Rahul Singh Meena
-Roll No.: 2301MC21
+Name: Vansh Goyal
+Roll No.: 2301MC33
 Course: Computer Networks Lab
 Assignment: Wireshark Traffic Capture and Protocol Analysis
 Date: October 17, 2025
